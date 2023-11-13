@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.centering {
+	display: flex;
+	position: fixed;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.back-logo {
+	z-index: 0;
+	display: flex;
+	position: fixed;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+.back-logo1 {
+	z-index: 0;
+	display: flex;
+	position: fixed;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+	z-index: 2;
+    display:inline-block !important; 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background: rgb(0, 0, 0);
+    color: #f1f1f1;
+    padding: 20px;
+}
+
+.spacing {
+    padding: 10px;
+}
